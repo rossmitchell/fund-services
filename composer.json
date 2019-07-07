@@ -1,0 +1,18 @@
+{
+    "name": "rossmitchell/fund-services",
+    "description": "A set of interfaces for getting fund information from different providers",
+    "license": ["GPL-3.0-or-later"],
+    "require": {
+        "php": ">=7.1",
+        "moneyphp/money": "^3.2"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "RossMitchell\\FundServices\\": "src/"
+        }
+    }
+}
